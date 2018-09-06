@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width,user-scalable=no">
+	<meta name="author" content="Francisco Matta Perdomo">
+	<title>Curriculo de FMP</title>
+</head>
+<body>
+	<header>
+		<img src="img/logo.svg" alt="Logo de Francisco Matta Perdomo" />
+		<h1>Hoja de Vida</h1>
+		<h2>Francisco Matta Perdomo</h2>
+		<h3>13 de Abril de 1975 - Girardot</h3>
+	</header>
+	<nav>
+		<p><a href="index.html">Inicio</a> | <strong>Educación</strong> | <a href="experiencia.html">Experiencia</a></p>
+	</nav>
+	<section id="educacion">
+		<h2>Educación</h2>
+		<table cellspacing="0" cellpadding="10px" border="1">
+			<thead>
+				<tr>
+					<th>Año</th>
+					<th>Institución</th>
+					<th>Descripción</th>
+					<th>Lugar</th>
+					<th>Culmino?</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>2006-2007</td>
+					<td>Universidad Sergio Arboleda</td>
+					<td>Gerencia de Proyecto basado en el esquema metodológico PMI</td>
+					<td>Bogotá - Colombia</td>
+					<td>Si</td>
+				</tr>
+				<tr>
+					<td>1998-1999</td>
+					<td>Universidad de los Andes</td>
+					<td>Software para redes</td>
+					<td>Bogotá - Colombia</td>
+					<td>Si</td>
+				</tr>
+				<tr>
+					<td>1991-1997</td>
+					<td>Universidad Piloto de Colombia</td>
+					<td>Ingeniería de Sistemas</td>
+					<td>Bogotá - Colombia</td>
+					<td>Si</td>
+				</tr>
+			</tbody>
+		</table>
+	</section>
+	<section id="agregarEstudios">
+		<h2>Agregar Estudios</h2>
+		<form action="educacion.html">
+			<p>
+				<label for="anio"><strong>Año</strong></label>
+				<select name="anio">
+					<option value="2018">2018</option>
+					<option value="2017">2017</option>
+					<option value="2016">2016</option>
+					<option value="2015">2015</option>
+				</select>
+			</p>
+			<p>	
+				<label for="institucion"><strong>Institución</strong></label>
+				<input type="text" name="institucion">
+			</p>
+			<p>	
+				<label for="lugar"><strong>Lugar</strong></label>
+				<textarea name="lugar" rows="3" cols="40"></textarea>	
+			</p>
+			<p>	
+				<label for="culmino"><strong>culmino</strong></label>
+				Si 	<input type="radio" name="culmino"> 
+				No  <input type="radio" name="culmino">
+			</p>
+
+			<p>
+				<input type="submit" value="Enviar">
+			</p>	
+		</form>
+	</section>
+	<footer>
+		<p><strong>Correo:</strong> <em>fmattaperdomo@gmail.com</em> | <strong>Celular:</strong> <em>+57 300-2183755</em> | <strong>twitter:</strong> <em>@fmattaperdomo</em>  </p>
+	</footer>
+	
+</body>
+</html>
